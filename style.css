@@ -54,3 +54,68 @@ header{
 img:hover{
     transform: scale(1.1);
 }
+#footer{
+    background-color: cornsilk;
+    color: #1b1b1b;
+    padding: 3%;
+    text-align: justify;
+}
+
+.contact-form{
+height: 500px;
+width: 60%;
+background-color: #674acf;
+text-align: center;
+color: white;
+margin: 50px auto;
+
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+form h3{
+margin:0;
+padding:0;
+margin-bottom: 25px;
+}
+form .inputField{
+margin:0;
+padding:0;
+margin-bottom: 15px;
+}
+
+.contact-form form .inputField .field-errors{
+margin: 0;
+margin-left: 10%;
+text-align: left;
+}
+form .inputField input{
+width: 80%;
+padding: 15px 20px;
+box-sizing: border-box;
+border-radius: 5px;
+border: none;
+}
+form textarea{
+width: 80%;
+height: 100px;
+resize: none;
+border-radius: 5px;
+padding: 12px 20px;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.button{
+color: #4CAF50; /* Green */
+border: none;
+border-radius: 6px;
+background-color: white;
+padding: 15px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+#userSubmit{
+margin: 4px 20px;
+}
