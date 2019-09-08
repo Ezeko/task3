@@ -155,26 +155,26 @@
     </body>
     <footer id="footer">
         <div class="contact-form">
-			<form>
+			<form action="http://ezekoconcept.dx.am/contactHandler.php" method="POST">
 				<br/>
 				<br/>
 				
 				<h3 style="font-family:comic sans ms"><i>CONTACT ME</i></h3>
 					
 					<div class="inputField">
-						<input type="text"  minlength="4" id="name-field" placeholder="Input your name here" required/>
+						<input type="text" name="name"  minlength="4" id="name-field" placeholder="Input your name here" required/>
 						<p id="name-error" class="field-errors"></p>
 					</div>
 					
-					<div class="inputField"><input type="email" placeholder="Enter your email" required/></div>
+					<div class="inputField"><input type="email" name="email" placeholder="Enter your email" required/></div>
 				
 				
 				
-					<div class="inputField"><input type="text" placeholder="Title of your message" required/></div>
+					<div class="inputField"><input type="text" name="title" placeholder="Title of your message" required/></div>
 				
 				
 					<div class="inputField" style="height: 123px;">
-						<textarea id="message-field" placeholder="Write your message here......" required></textarea>
+						<textarea id="message-field" name="message" placeholder="Write your message here......" required></textarea>
 						<p id="message-error" class="field-errors"></p>
 					</div>
 					
